@@ -1,0 +1,135 @@
+*{
+    font-family: Georgia;
+}
+
+body, html, ul{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+}
+
+h2{
+    font-family: 'Roboto';
+    letter-spacing: 1px;
+}
+
+li{
+    list-style: none;
+    font-family: 'Roboto';
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+    float: right;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.wrapper{
+    width: 92%;
+    margin: 75px auto;
+    border-radius: 15px;
+    border: solid black 5px;
+}
+
+
+.id{
+    float: left;
+    margin: -50px 45px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    letter-spacing: 3px;
+    background-color: white;
+}
+
+.info{
+    float: right;
+    box-sizing: border-box;
+    background-color: white;
+    margin: -30px 30px;
+}
+
+.info li{
+    padding: 0 15px;
+    letter-spacing: 2px;
+}
+
+.id h1{
+    font-weight: lighter;
+}
+
+.id h1:nth-child(1){
+    margin-left: -30px;
+}
+
+.id h1:nth-child(3){
+    margin-left: 25px;
+}
+
+.title{
+    display: inline-block;
+    box-sizing: border-box;
+    margin: -30px 75px;
+    padding: 0 20px;
+    font-weight: 1000;
+    font-size: 3em;
+    background-color: white;
+}
+
+.content{
+    margin: 3em 3em;
+    font-size: 1.2em;
+}
+
+.content h2{
+    margin: 15px -20px;
+}
+
+.content li{
+    margin: 15px -10px 10px;
+}
+
+
+@media only screen and (max-width: 1400px){
+    .title, .info, .id{
+        clear: both;
+    }
+
+    .wrapper{
+        min-width: 500px;
+    }
+    
+    .headings{
+        text-align: center;
+
+    }
+
+    .id{
+        font-size: 1em;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+
+    .title{
+        font-size: 2em;
+        position: relative;
+        top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .info{
+        float: none;
+        position: relative;
+        top: 40px;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+}
